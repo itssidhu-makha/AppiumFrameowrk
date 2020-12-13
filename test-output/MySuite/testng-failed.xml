@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [MySuite]">
+  <test thread-count="1" parallel="tests" name="TestOne(failed)">
+    <parameter name="SheetRunning" value="Test"/>
+    <parameter name="TestRunning" value="TestOne"/>
+    <classes>
+      <class name="com.controller.BaseTest">
+        <methods>
+          <include name="test1"/>
+          <include name="initiate"/>
+          <include name="setReporter"/>
+          <include name="killProcesses"/>
+        </methods>
+      </class> <!-- com.controller.BaseTest -->
+    </classes>
+  </test> <!-- TestOne(failed) -->
+  <test thread-count="1" parallel="tests" name="TestTwo(failed)">
+    <parameter name="SheetRunning" value="Test"/>
+    <parameter name="TestRunning" value="TestTwo"/>
+    <classes>
+      <class name="com.controller.BaseTest">
+        <methods>
+          <include name="test1"/>
+          <include name="initiate"/>
+          <include name="setReporter"/>
+          <include name="killProcesses"/>
+        </methods>
+      </class> <!-- com.controller.BaseTest -->
+    </classes>
+  </test> <!-- TestTwo(failed) -->
+  <test thread-count="1" parallel="tests" name="TestThree(failed)">
+    <parameter name="SheetRunning" value="Test"/>
+    <parameter name="TestRunning" value="TestThree"/>
+    <classes>
+      <class name="com.controller.BaseTest">
+        <methods>
+          <include name="test1"/>
+          <include name="initiate"/>
+          <include name="setReporter"/>
+          <include name="killProcesses"/>
+        </methods>
+      </class> <!-- com.controller.BaseTest -->
+    </classes>
+  </test> <!-- TestThree(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

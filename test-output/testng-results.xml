@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-13T17:54:28 GMT" name="MySuite" finished-at="2020-12-13T17:58:17 GMT" duration-ms="229346">
+    <groups>
+    </groups>
+    <test started-at="2020-12-13T17:54:28 GMT" name="TestOne" finished-at="2020-12-13T17:56:12 GMT" duration-ms="103713">
+      <class name="com.controller.BaseTest">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:com.controller.BaseTest@61f8bee4]" started-at="2020-12-13T17:54:28 GMT" name="initiate" finished-at="2020-12-13T17:55:24 GMT" duration-ms="55806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method is-config="true" signature="setReporter(java.lang.String, java.lang.String)[pri:0, instance:com.controller.BaseTest@61f8bee4]" started-at="2020-12-13T17:55:24 GMT" name="setReporter" finished-at="2020-12-13T17:55:25 GMT" duration-ms="768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestOne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.controller.BaseTest@61f8bee4]" started-at="2020-12-13T17:55:25 GMT" name="test1" finished-at="2020-12-13T17:56:11 GMT" duration-ms="46532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestOne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:com.controller.BaseTest@61f8bee4]" started-at="2020-12-13T17:56:11 GMT" name="killProcesses" finished-at="2020-12-13T17:56:12 GMT" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcesses -->
+      </class> <!-- com.controller.BaseTest -->
+    </test> <!-- TestOne -->
+    <test started-at="2020-12-13T17:56:12 GMT" name="TestTwo" finished-at="2020-12-13T17:57:15 GMT" duration-ms="63158">
+      <class name="com.controller.BaseTest">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:com.controller.BaseTest@a7e666]" started-at="2020-12-13T17:56:12 GMT" name="initiate" finished-at="2020-12-13T17:56:29 GMT" duration-ms="17034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method is-config="true" signature="setReporter(java.lang.String, java.lang.String)[pri:0, instance:com.controller.BaseTest@a7e666]" started-at="2020-12-13T17:56:29 GMT" name="setReporter" finished-at="2020-12-13T17:56:29 GMT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestTwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.controller.BaseTest@a7e666]" started-at="2020-12-13T17:56:29 GMT" name="test1" finished-at="2020-12-13T17:57:15 GMT" duration-ms="45686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestTwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:com.controller.BaseTest@a7e666]" started-at="2020-12-13T17:57:15 GMT" name="killProcesses" finished-at="2020-12-13T17:57:15 GMT" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcesses -->
+      </class> <!-- com.controller.BaseTest -->
+    </test> <!-- TestTwo -->
+    <test started-at="2020-12-13T17:57:15 GMT" name="TestThree" finished-at="2020-12-13T17:58:17 GMT" duration-ms="62302">
+      <class name="com.controller.BaseTest">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:com.controller.BaseTest@9660f4e]" started-at="2020-12-13T17:57:15 GMT" name="initiate" finished-at="2020-12-13T17:57:30 GMT" duration-ms="15139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method is-config="true" signature="setReporter(java.lang.String, java.lang.String)[pri:0, instance:com.controller.BaseTest@9660f4e]" started-at="2020-12-13T17:57:30 GMT" name="setReporter" finished-at="2020-12-13T17:57:30 GMT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestThree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.controller.BaseTest@9660f4e]" started-at="2020-12-13T17:57:30 GMT" name="test1" finished-at="2020-12-13T17:58:17 GMT" duration-ms="46747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestThree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:com.controller.BaseTest@9660f4e]" started-at="2020-12-13T17:58:17 GMT" name="killProcesses" finished-at="2020-12-13T17:58:17 GMT" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcesses -->
+      </class> <!-- com.controller.BaseTest -->
+    </test> <!-- TestThree -->
+  </suite> <!-- MySuite -->
+</testng-results>
